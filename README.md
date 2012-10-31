@@ -10,8 +10,8 @@ Built-in Support
 Currently, the Andicons library provides the base AndiconView class as well as
 implementations for the following glyph sets:
 
-* OcticonView -> (Octicons)[https://github.com/styleguide/css/7.0]
-* (Planned) FontAwesomeView -> (Font Awesome)[http://fortawesome.github.com/Font-Awesome/]
+* OcticonView -> [Octicons](https://github.com/styleguide/css/7.0)
+* (Planned) FontAwesomeView -> [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
 
 Using & Such
 ------------
