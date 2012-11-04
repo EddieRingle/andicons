@@ -28,4 +28,17 @@ Andicons does not provide the actual TrueType font files per se. It's up to you 
 permission (if needed) to use these sets as well as track down the file for inclusion
 in your application.
 
+You can add Andicons programmatically or directly into layouts, like so:
+
+    <com.github.eddieringle.android.libs.andicons.sets.FontAwesomeView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@id/fontawesome_leaf"
+            android:textColor="@color/android_green"
+            android:textSize="64sp" />
+
+The above would result in this (don't mind the other bits, I just threw this example into another application I'm working because I was lazy):
+
+![Layout result](https://dl.dropbox.com/u/3274458/Android/foa/2012-11-04%2015.36.37.png)
+
 <More documentation to follow...>
