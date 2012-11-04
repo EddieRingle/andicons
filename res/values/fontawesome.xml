@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2012 Eddie Ringle
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
+  ~ following conditions are met:
+  ~
+  ~ Redistributions of source code must retain the above copyright notice, this list of conditions and the following
+  ~ disclaimer.
+  ~ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following
+  ~ disclaimer in the documentation and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+  ~ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  ~ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  ~ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+  ~ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+<resources>
+    <item type="id" name="fontawesome_glass" />
+    <item type="id" name="fontawesome_music" />
+    <item type="id" name="fontawesome_search" />
+    <item type="id" name="fontawesome_envelope" />
+    <item type="id" name="fontawesome_heart" />
+    <item type="id" name="fontawesome_star" />
+    <item type="id" name="fontawesome_star_empty" />
+    <item type="id" name="fontawesome_user" />
+    <item type="id" name="fontawesome_film" />
+    <item type="id" name="fontawesome_th_large" />
+    <item type="id" name="fontawesome_th" />
+    <item type="id" name="fontawesome_th_list" />
+    <item type="id" name="fontawesome_ok" />
+    <item type="id" name="fontawesome_remove" />
+    <item type="id" name="fontawesome_zoom_in" />
+    <item type="id" name="fontawesome_zoom_out" />
+    <item type="id" name="fontawesome_off" />
+    <item type="id" name="fontawesome_signal" />
+    <item type="id" name="fontawesome_cog" />
+    <item type="id" name="fontawesome_trash" />
+    <item type="id" name="fontawesome_home" />
+    <item type="id" name="fontawesome_file" />
+    <item type="id" name="fontawesome_time" />
+    <item type="id" name="fontawesome_road" />
+    <item type="id" name="fontawesome_download_alt" />
+    <item type="id" name="fontawesome_download" />
+    <item type="id" name="fontawesome_upload" />
+    <item type="id" name="fontawesome_inbox" />
+    <item type="id" name="fontawesome_play_circle" />
+    <item type="id" name="fontawesome_repeat" />
+    <item type="id" name="fontawesome_refresh" />
+    <item type="id" name="fontawesome_list_alt" />
+    <item type="id" name="fontawesome_lock" />
+    <item type="id" name="fontawesome_flag" />
+    <item type="id" name="fontawesome_headphones" />
+    <item type="id" name="fontawesome_volume_off" />
+    <item type="id" name="fontawesome_volume_down" />
+    <item type="id" name="fontawesome_volume_up" />
+    <item type="id" name="fontawesome_qrcode" />
+    <item type="id" name="fontawesome_barcode" />
+    <item type="id" name="fontawesome_tag" />
+    <item type="id" name="fontawesome_tags" />
+    <item type="id" name="fontawesome_book" />
+    <item type="id" name="fontawesome_bookmark" />
+    <item type="id" name="fontawesome_print" />
+    <item type="id" name="fontawesome_camera" />
+    <item type="id" name="fontawesome_font" />
+    <item type="id" name="fontawesome_bold" />
+    <item type="id" name="fontawesome_italic" />
+    <item type="id" name="fontawesome_text_height" />
+    <item type="id" name="fontawesome_text_width" />
+    <item type="id" name="fontawesome_align_left" />
+    <item type="id" name="fontawesome_align_center" />
+    <item type="id" name="fontawesome_align_right" />
+    <item type="id" name="fontawesome_align_justify" />
+    <item type="id" name="fontawesome_list" />
+    <item type="id" name="fontawesome_indent_left" />
+    <item type="id" name="fontawesome_indent_right" />
+    <item type="id" name="fontawesome_facetime_video" />
+    <item type="id" name="fontawesome_picture" />
+    <item type="id" name="fontawesome_pencil" />
+    <item type="id" name="fontawesome_map_marker" />
+    <item type="id" name="fontawesome_adjust" />
+    <item type="id" name="fontawesome_tint" />
+    <item type="id" name="fontawesome_edit" />
+    <item type="id" name="fontawesome_share" />
+    <item type="id" name="fontawesome_check" />
+    <item type="id" name="fontawesome_move" />
+    <item type="id" name="fontawesome_step_backward" />
+    <item type="id" name="fontawesome_fast_backward" />
+    <item type="id" name="fontawesome_backward" />
+    <item type="id" name="fontawesome_play" />
+    <item type="id" name="fontawesome_pause" />
+    <item type="id" name="fontawesome_stop" />
+    <item type="id" name="fontawesome_forward" />
+    <item type="id" name="fontawesome_fast_forward" />
+    <item type="id" name="fontawesome_step_forward" />
+    <item type="id" name="fontawesome_eject" />
+    <item type="id" name="fontawesome_chevron_left" />
+    <item type="id" name="fontawesome_chevron_right" />
+    <item type="id" name="fontawesome_plus_sign" />
+    <item type="id" name="fontawesome_minus_sign" />
+    <item type="id" name="fontawesome_remove_sign" />
+    <item type="id" name="fontawesome_ok_sign" />
+    <item type="id" name="fontawesome_question_sign" />
+    <item type="id" name="fontawesome_info_sign" />
+    <item type="id" name="fontawesome_screenshot" />
+    <item type="id" name="fontawesome_remove_circle" />
+    <item type="id" name="fontawesome_ok_circle" />
+    <item type="id" name="fontawesome_ban_circle" />
+    <item type="id" name="fontawesome_arrow_left" />
+    <item type="id" name="fontawesome_arrow_right" />
+    <item type="id" name="fontawesome_arrow_up" />
+    <item type="id" name="fontawesome_arrow_down" />
+    <item type="id" name="fontawesome_share_alt" />
+    <item type="id" name="fontawesome_resize_full" />
+    <item type="id" name="fontawesome_resize_small" />
+    <item type="id" name="fontawesome_plus" />
+    <item type="id" name="fontawesome_minus" />
+    <item type="id" name="fontawesome_asterisk" />
+    <item type="id" name="fontawesome_exclamation_sign" />
+    <item type="id" name="fontawesome_gift" />
+    <item type="id" name="fontawesome_leaf" />
+    <item type="id" name="fontawesome_fire" />
+    <item type="id" name="fontawesome_eye_open" />
+    <item type="id" name="fontawesome_eye_close" />
+    <item type="id" name="fontawesome_warning_sign" />
+    <item type="id" name="fontawesome_plane" />
+    <item type="id" name="fontawesome_calendar" />
+    <item type="id" name="fontawesome_random" />
+    <item type="id" name="fontawesome_comment" />
+    <item type="id" name="fontawesome_magnet" />
+    <item type="id" name="fontawesome_chevron_up" />
+    <item type="id" name="fontawesome_chevron_down" />
+    <item type="id" name="fontawesome_retweet" />
+    <item type="id" name="fontawesome_shopping_cart" />
+    <item type="id" name="fontawesome_folder_close" />
+    <item type="id" name="fontawesome_folder_open" />
+    <item type="id" name="fontawesome_resize_vertical" />
+    <item type="id" name="fontawesome_resize_horizontal" />
+    <item type="id" name="fontawesome_bar_chart" />
+    <item type="id" name="fontawesome_twitter_sign" />
+    <item type="id" name="fontawesome_facebook_sign" />
+    <item type="id" name="fontawesome_camera_retro" />
+    <item type="id" name="fontawesome_key" />
+    <item type="id" name="fontawesome_cogs" />
+    <item type="id" name="fontawesome_comments" />
+    <item type="id" name="fontawesome_thumbs_up" />
+    <item type="id" name="fontawesome_thumbs_down" />
+    <item type="id" name="fontawesome_star_half" />
+    <item type="id" name="fontawesome_heart_empty" />
+    <item type="id" name="fontawesome_signout" />
+    <item type="id" name="fontawesome_linkedin_sign" />
+    <item type="id" name="fontawesome_pushpin" />
+    <item type="id" name="fontawesome_external_link" />
+    <item type="id" name="fontawesome_signin" />
+    <item type="id" name="fontawesome_trophy" />
+    <item type="id" name="fontawesome_github_sign" />
+    <item type="id" name="fontawesome_upload_alt" />
+    <item type="id" name="fontawesome_lemon" />
+    <item type="id" name="fontawesome_phone" />
+    <item type="id" name="fontawesome_check_empty" />
+    <item type="id" name="fontawesome_bookmark_empty" />
+    <item type="id" name="fontawesome_phone_sign" />
+    <item type="id" name="fontawesome_twitter" />
+    <item type="id" name="fontawesome_facebook" />
+    <item type="id" name="fontawesome_github" />
+    <item type="id" name="fontawesome_unlock" />
+    <item type="id" name="fontawesome_credit_card" />
+    <item type="id" name="fontawesome_rss" />
+    <item type="id" name="fontawesome_hdd" />
+    <item type="id" name="fontawesome_bullhorn" />
+    <item type="id" name="fontawesome_bell" />
+    <item type="id" name="fontawesome_certificate" />
+    <item type="id" name="fontawesome_hand_right" />
+    <item type="id" name="fontawesome_hand_left" />
+    <item type="id" name="fontawesome_hand_up" />
+    <item type="id" name="fontawesome_hand_down" />
+    <item type="id" name="fontawesome_circle_arrow_left" />
+    <item type="id" name="fontawesome_circle_arrow_right" />
+    <item type="id" name="fontawesome_circle_arrow_up" />
+    <item type="id" name="fontawesome_circle_arrow_down" />
+    <item type="id" name="fontawesome_globe" />
+    <item type="id" name="fontawesome_wrench" />
+    <item type="id" name="fontawesome_tasks" />
+    <item type="id" name="fontawesome_filter" />
+    <item type="id" name="fontawesome_briefcase" />
+    <item type="id" name="fontawesome_fullscreen" />
+    <item type="id" name="fontawesome_group" />
+    <item type="id" name="fontawesome_link" />
+    <item type="id" name="fontawesome_cloud" />
+    <item type="id" name="fontawesome_beaker" />
+    <item type="id" name="fontawesome_cut" />
+    <item type="id" name="fontawesome_copy" />
+    <item type="id" name="fontawesome_paper_clip" />
+    <item type="id" name="fontawesome_save" />
+    <item type="id" name="fontawesome_sign_blank" />
+    <item type="id" name="fontawesome_reorder" />
+    <item type="id" name="fontawesome_list_ul" />
+    <item type="id" name="fontawesome_list_ol" />
+    <item type="id" name="fontawesome_strikethrough" />
+    <item type="id" name="fontawesome_underline" />
+    <item type="id" name="fontawesome_table" />
+    <item type="id" name="fontawesome_magic" />
+    <item type="id" name="fontawesome_truck" />
+    <item type="id" name="fontawesome_pinterest" />
+    <item type="id" name="fontawesome_pinterest_sign" />
+    <item type="id" name="fontawesome_google_plus_sign" />
+    <item type="id" name="fontawesome_google_plus" />
+    <item type="id" name="fontawesome_money" />
+    <item type="id" name="fontawesome_caret_down" />
+    <item type="id" name="fontawesome_caret_up" />
+    <item type="id" name="fontawesome_caret_left" />
+    <item type="id" name="fontawesome_caret_right" />
+    <item type="id" name="fontawesome_columns" />
+    <item type="id" name="fontawesome_sort" />
+    <item type="id" name="fontawesome_sort_down" />
+    <item type="id" name="fontawesome_sort_up" />
+    <item type="id" name="fontawesome_envelope_alt" />
+    <item type="id" name="fontawesome_linkedin" />
+    <item type="id" name="fontawesome_undo" />
+    <item type="id" name="fontawesome_legal" />
+    <item type="id" name="fontawesome_dashboard" />
+    <item type="id" name="fontawesome_comment_alt" />
+    <item type="id" name="fontawesome_comments_alt" />
+    <item type="id" name="fontawesome_bolt" />
+    <item type="id" name="fontawesome_sitemap" />
+    <item type="id" name="fontawesome_umbrella" />
+    <item type="id" name="fontawesome_paste" />
+    <item type="id" name="fontawesome_user_md" />
+</resources>
