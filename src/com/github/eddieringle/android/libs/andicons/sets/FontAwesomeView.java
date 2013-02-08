@@ -452,7 +452,85 @@ public class FontAwesomeView extends AndiconView {
 
     public static final int IC_PASTE = 0xf0ea;
 
-    public static final int IC_USER_MD = 0xf200;
+    public static final int IC_LIGHTBULB = 0xf0eb;
+
+    public static final int IC_EXCHANGE = 0xf0ec;
+
+    public static final int IC_CLOUD_DOWNLOAD = 0xf0ed;
+
+    public static final int IC_CLOUD_UPLOAD = 0xf0ee;
+
+    public static final int IC_USER_MD = 0xf0f0;
+
+    public static final int IC_STETHOSCOPE = 0xf0f1;
+
+    public static final int IC_SUITCASE = 0xf0f2;
+
+    public static final int IC_BELL_ALT = 0xf0f3;
+
+    public static final int IC_COFFEE = 0xf0f4;
+
+    public static final int IC_FOOD = 0xf0f5;
+
+    public static final int IC_FILE_ALT = 0xf0f6;
+
+    public static final int IC_BUILDING = 0xf0f7;
+
+    public static final int IC_HOSPITAL = 0xf0f8;
+
+    public static final int IC_AMBULANCE = 0xf0f9;
+
+    public static final int IC_MEDKIT = 0xf0fa;
+
+    public static final int IC_FIGHTER_JET = 0xf0fb;
+
+    public static final int IC_BEER = 0xf0fc;
+
+    public static final int IC_H_SIGN = 0xf0fd;
+
+    public static final int IC_PLUS_SIGN_ALT = 0xf0fe;
+
+    public static final int IC_DOUBLE_ANGLE_LEFT = 0xf100;
+
+    public static final int IC_DOUBLE_ANGLE_RIGHT = 0xf101;
+
+    public static final int IC_DOUBLE_ANGLE_UP = 0xf102;
+
+    public static final int IC_DOUBLE_ANGLE_DOWN = 0xf103;
+
+    public static final int IC_ANGLE_LEFT = 0xf104;
+
+    public static final int IC_ANGLE_RIGHT = 0xf105;
+
+    public static final int IC_ANGLE_UP = 0xf106;
+
+    public static final int IC_ANGLE_DOWN = 0xf107;
+
+    public static final int IC_DESKTOP = 0xf108;
+
+    public static final int IC_LAPTOP = 0xf109;
+
+    public static final int IC_TABLET = 0xf10a;
+
+    public static final int IC_MOBILE_PHONE = 0xf10b;
+
+    public static final int IC_CIRCLE_BLANK = 0xf10c;
+
+    public static final int IC_QUOTE_LEFT = 0xf10d;
+
+    public static final int IC_QUOTE_RIGHT = 0xf10e;
+
+    public static final int IC_SPINNER = 0xf110;
+
+    public static final int IC_CIRCLE = 0xf111;
+
+    public static final int IC_REPLY = 0xf112;
+
+    public static final int IC_GITHUB_ALT = 0xf113;
+
+    public static final int IC_FOLDER_CLOSE_ALT = 0xf114;
+
+    public static final int IC_FOLDER_OPEN_ALT = 0xf115;
 
     public FontAwesomeView(Context context) {
         super(context);
@@ -478,6 +556,16 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_ALIGN_LEFT);
         } else if (id == R.id.fontawesome_align_right) {
             setAndicon(IC_ALIGN_RIGHT);
+        } else if (id == R.id.fontawesome_ambulance) {
+            setAndicon(IC_AMBULANCE);
+        } else if (id == R.id.fontawesome_angle_down) {
+            setAndicon(IC_ANGLE_DOWN);
+        } else if (id == R.id.fontawesome_angle_left) {
+            setAndicon(IC_ANGLE_LEFT);
+        } else if (id == R.id.fontawesome_angle_right) {
+            setAndicon(IC_ANGLE_RIGHT);
+        } else if (id == R.id.fontawesome_angle_up) {
+            setAndicon(IC_ANGLE_UP);
         } else if (id == R.id.fontawesome_arrow_down) {
             setAndicon(IC_ARROW_DOWN);
         } else if (id == R.id.fontawesome_arrow_left) {
@@ -498,6 +586,10 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_BARCODE);
         } else if (id == R.id.fontawesome_beaker) {
             setAndicon(IC_BEAKER);
+        } else if (id == R.id.fontawesome_beer) {
+            setAndicon(IC_BEER);
+        } else if (id == R.id.fontawesome_bell_alt) {
+            setAndicon(IC_BELL_ALT);
         } else if (id == R.id.fontawesome_bell) {
             setAndicon(IC_BELL);
         } else if (id == R.id.fontawesome_bold) {
@@ -512,6 +604,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_BOOKMARK);
         } else if (id == R.id.fontawesome_briefcase) {
             setAndicon(IC_BRIEFCASE);
+        } else if (id == R.id.fontawesome_building) {
+            setAndicon(IC_BUILDING);
         } else if (id == R.id.fontawesome_bullhorn) {
             setAndicon(IC_BULLHORN);
         } else if (id == R.id.fontawesome_calendar) {
@@ -550,8 +644,18 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_CIRCLE_ARROW_RIGHT);
         } else if (id == R.id.fontawesome_circle_arrow_up) {
             setAndicon(IC_CIRCLE_ARROW_UP);
+        } else if (id == R.id.fontawesome_circle_blank) {
+            setAndicon(IC_CIRCLE_BLANK);
+        } else if (id == R.id.fontawesome_circle) {
+            setAndicon(IC_CIRCLE);
         } else if (id == R.id.fontawesome_cloud) {
             setAndicon(IC_CLOUD);
+        } else if (id == R.id.fontawesome_cloud_download) {
+            setAndicon(IC_CLOUD_DOWNLOAD);
+        } else if (id == R.id.fontawesome_cloud_upload) {
+            setAndicon(IC_CLOUD_UPLOAD);
+        } else if (id == R.id.fontawesome_coffee) {
+            setAndicon(IC_COFFEE);
         } else if (id == R.id.fontawesome_cog) {
             setAndicon(IC_COG);
         } else if (id == R.id.fontawesome_cogs) {
@@ -574,6 +678,16 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_CUT);
         } else if (id == R.id.fontawesome_dashboard) {
             setAndicon(IC_DASHBOARD);
+        } else if (id == R.id.fontawesome_desktop) {
+            setAndicon(IC_DESKTOP);
+        } else if (id == R.id.fontawesome_double_angle_down) {
+            setAndicon(IC_DOUBLE_ANGLE_DOWN);
+        } else if (id == R.id.fontawesome_double_angle_left) {
+            setAndicon(IC_DOUBLE_ANGLE_LEFT);
+        } else if (id == R.id.fontawesome_double_angle_right) {
+            setAndicon(IC_DOUBLE_ANGLE_RIGHT);
+        } else if (id == R.id.fontawesome_double_angle_up) {
+            setAndicon(IC_DOUBLE_ANGLE_UP);
         } else if (id == R.id.fontawesome_download_alt) {
             setAndicon(IC_DOWNLOAD_ALT);
         } else if (id == R.id.fontawesome_download) {
@@ -586,6 +700,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_ENVELOPE_ALT);
         } else if (id == R.id.fontawesome_envelope) {
             setAndicon(IC_ENVELOPE);
+        } else if (id == R.id.fontawesome_exchange) {
+            setAndicon(IC_EXCHANGE);
         } else if (id == R.id.fontawesome_exclamation_sign) {
             setAndicon(IC_EXCLAMATION_SIGN);
         } else if (id == R.id.fontawesome_external_link) {
@@ -604,6 +720,12 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_FAST_BACKWARD);
         } else if (id == R.id.fontawesome_fast_forward) {
             setAndicon(IC_FAST_FORWARD);
+        } else if (id == R.id.fontawesome_fighter_jet) {
+            setAndicon(IC_FIGHTER_JET);
+        } else if (id == R.id.fontawesome_food) {
+            setAndicon(IC_FOOD);
+        } else if (id == R.id.fontawesome_file_alt) {
+            setAndicon(IC_FILE_ALT);
         } else if (id == R.id.fontawesome_file) {
             setAndicon(IC_FILE);
         } else if (id == R.id.fontawesome_film) {
@@ -614,8 +736,12 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_FIRE);
         } else if (id == R.id.fontawesome_flag) {
             setAndicon(IC_FLAG);
+        } else if (id == R.id.fontawesome_folder_close_alt) {
+            setAndicon(IC_FOLDER_CLOSE_ALT);
         } else if (id == R.id.fontawesome_folder_close) {
             setAndicon(IC_FOLDER_CLOSE);
+        } else if (id == R.id.fontawesome_folder_open_alt) {
+            setAndicon(IC_FOLDER_OPEN_ALT);
         } else if (id == R.id.fontawesome_folder_open) {
             setAndicon(IC_FOLDER_OPEN);
         } else if (id == R.id.fontawesome_font) {
@@ -626,6 +752,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_FULLSCREEN);
         } else if (id == R.id.fontawesome_gift) {
             setAndicon(IC_GIFT);
+        } else if (id == R.id.fontawesome_github_alt) {
+            setAndicon(IC_GITHUB_ALT);
         } else if (id == R.id.fontawesome_github_sign) {
             setAndicon(IC_GITHUB_SIGN);
         } else if (id == R.id.fontawesome_github) {
@@ -640,6 +768,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_GOOGLE_PLUS);
         } else if (id == R.id.fontawesome_group) {
             setAndicon(IC_GROUP);
+        } else if (id == R.id.fontawesome_h_sign) {
+            setAndicon(IC_H_SIGN);
         } else if (id == R.id.fontawesome_hand_down) {
             setAndicon(IC_HAND_DOWN);
         } else if (id == R.id.fontawesome_hand_left) {
@@ -658,6 +788,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_HEART);
         } else if (id == R.id.fontawesome_home) {
             setAndicon(IC_HOME);
+        } else if (id == R.id.fontawesome_hospital) {
+            setAndicon(IC_HOSPITAL);
         } else if (id == R.id.fontawesome_inbox) {
             setAndicon(IC_INBOX);
         } else if (id == R.id.fontawesome_indent_left) {
@@ -670,12 +802,16 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_ITALIC);
         } else if (id == R.id.fontawesome_key) {
             setAndicon(IC_KEY);
+        } else if (id == R.id.fontawesome_laptop) {
+            setAndicon(IC_LAPTOP);
         } else if (id == R.id.fontawesome_leaf) {
             setAndicon(IC_LEAF);
         } else if (id == R.id.fontawesome_legal) {
             setAndicon(IC_LEGAL);
         } else if (id == R.id.fontawesome_lemon) {
             setAndicon(IC_LEMON);
+        } else if (id == R.id.fontawesome_lightbulb) {
+            setAndicon(IC_LIGHTBULB);
         } else if (id == R.id.fontawesome_link) {
             setAndicon(IC_LINK);
         } else if (id == R.id.fontawesome_linkedin_sign) {
@@ -698,10 +834,14 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_MAGNET);
         } else if (id == R.id.fontawesome_map_marker) {
             setAndicon(IC_MAP_MARKER);
+        } else if (id == R.id.fontawesome_medkit) {
+            setAndicon(IC_MEDKIT);
         } else if (id == R.id.fontawesome_minus_sign) {
             setAndicon(IC_MINUS_SIGN);
         } else if (id == R.id.fontawesome_minus) {
             setAndicon(IC_MINUS);
+        } else if (id == R.id.fontawesome_mobile_phone) {
+            setAndicon(IC_MOBILE_PHONE);
         } else if (id == R.id.fontawesome_money) {
             setAndicon(IC_MONEY);
         } else if (id == R.id.fontawesome_move) {
@@ -740,6 +880,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_PLAY_CIRCLE);
         } else if (id == R.id.fontawesome_play) {
             setAndicon(IC_PLAY);
+        } else if (id == R.id.fontawesome_plus_sign_alt) {
+            setAndicon(IC_PLUS_SIGN_ALT);
         } else if (id == R.id.fontawesome_plus_sign) {
             setAndicon(IC_PLUS_SIGN);
         } else if (id == R.id.fontawesome_plus) {
@@ -752,6 +894,10 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_QRCODE);
         } else if (id == R.id.fontawesome_question_sign) {
             setAndicon(IC_QUESTION_SIGN);
+        } else if (id == R.id.fontawesome_quote_left) {
+            setAndicon(IC_QUOTE_LEFT);
+        } else if (id == R.id.fontawesome_quote_right) {
+            setAndicon(IC_QUOTE_RIGHT);
         } else if (id == R.id.fontawesome_random) {
             setAndicon(IC_RANDOM);
         } else if (id == R.id.fontawesome_refresh) {
@@ -766,6 +912,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_REORDER);
         } else if (id == R.id.fontawesome_repeat) {
             setAndicon(IC_REPEAT);
+        } else if (id == R.id.fontawesome_reply) {
+            setAndicon(IC_REPLY);
         } else if (id == R.id.fontawesome_resize_full) {
             setAndicon(IC_RESIZE_FULL);
         } else if (id == R.id.fontawesome_resize_horizontal) {
@@ -808,6 +956,8 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_SORT_UP);
         } else if (id == R.id.fontawesome_sort) {
             setAndicon(IC_SORT);
+        } else if (id == R.id.fontawesome_spinner) {
+            setAndicon(IC_SPINNER);
         } else if (id == R.id.fontawesome_star_empty) {
             setAndicon(IC_STAR_EMPTY);
         } else if (id == R.id.fontawesome_star_half) {
@@ -818,10 +968,16 @@ public class FontAwesomeView extends AndiconView {
             setAndicon(IC_STEP_BACKWARD);
         } else if (id == R.id.fontawesome_step_forward) {
             setAndicon(IC_STEP_FORWARD);
+        } else if (id == R.id.fontawesome_stethoscope) {
+            setAndicon(IC_STETHOSCOPE);
+        } else if (id == R.id.fontawesome_suitcase) {
+            setAndicon(IC_SUITCASE);
         } else if (id == R.id.fontawesome_stop) {
             setAndicon(IC_STOP);
         } else if (id == R.id.fontawesome_strikethrough) {
             setAndicon(IC_STRIKETHROUGH);
+        } else if (id == R.id.fontawesome_tablet) {
+            setAndicon(IC_TABLET);
         } else if (id == R.id.fontawesome_table) {
             setAndicon(IC_TABLE);
         } else if (id == R.id.fontawesome_tag) {
