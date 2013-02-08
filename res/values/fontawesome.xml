@@ -229,5 +229,44 @@
     <item type="id" name="fontawesome_sitemap" />
     <item type="id" name="fontawesome_umbrella" />
     <item type="id" name="fontawesome_paste" />
+    <item type="id" name="fontawesome_lightbulb" />
+    <item type="id" name="fontawesome_exchange" />
+    <item type="id" name="fontawesome_cloud_download" />
+    <item type="id" name="fontawesome_cloud_upload" />
     <item type="id" name="fontawesome_user_md" />
+    <item type="id" name="fontawesome_stethoscope" />
+    <item type="id" name="fontawesome_suitcase" />
+    <item type="id" name="fontawesome_bell_alt" />
+    <item type="id" name="fontawesome_coffee" />
+    <item type="id" name="fontawesome_food" />
+    <item type="id" name="fontawesome_file_alt" />
+    <item type="id" name="fontawesome_building" />
+    <item type="id" name="fontawesome_hospital" />
+    <item type="id" name="fontawesome_ambulance" />
+    <item type="id" name="fontawesome_medkit" />
+    <item type="id" name="fontawesome_fighter_jet" />
+    <item type="id" name="fontawesome_beer" />
+    <item type="id" name="fontawesome_h_sign" />
+    <item type="id" name="fontawesome_plus_sign_alt" />
+    <item type="id" name="fontawesome_double_angle_left" />
+    <item type="id" name="fontawesome_double_angle_right" />
+    <item type="id" name="fontawesome_double_angle_up" />
+    <item type="id" name="fontawesome_double_angle_down" />
+    <item type="id" name="fontawesome_angle_left" />
+    <item type="id" name="fontawesome_angle_right" />
+    <item type="id" name="fontawesome_angle_up" />
+    <item type="id" name="fontawesome_angle_down" />
+    <item type="id" name="fontawesome_desktop" />
+    <item type="id" name="fontawesome_laptop" />
+    <item type="id" name="fontawesome_tablet" />
+    <item type="id" name="fontawesome_mobile_phone" />
+    <item type="id" name="fontawesome_circle_blank" />
+    <item type="id" name="fontawesome_quote_left" />
+    <item type="id" name="fontawesome_quote_right" />
+    <item type="id" name="fontawesome_spinner" />
+    <item type="id" name="fontawesome_circle" />
+    <item type="id" name="fontawesome_reply" />
+    <item type="id" name="fontawesome_github_alt" />
+    <item type="id" name="fontawesome_folder_close_alt" />
+    <item type="id" name="fontawesome_folder_open_alt" />
 </resources>
