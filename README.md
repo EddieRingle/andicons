@@ -37,7 +37,7 @@ You can add Andicons programmatically or directly into layouts, like so:
             android:textColor="@color/android_green"
             android:textSize="64sp" />
 
-The above would result in this (don't mind the other bits, I just threw this example into another application I'm working because I was lazy):
+The above would result in this (don't mind the other bits, I just threw this example into another application I'm working on because I was lazy):
 
 <img src="https://dl.dropbox.com/u/3274458/Android/foa/2012-11-04%2015.36.37.png" alt="Layout result" height="75%" />
 
