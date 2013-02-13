@@ -11,7 +11,9 @@ Currently, the Andicons library provides the base AndiconView class as well as
 implementations for the following glyph sets:
 
 * OcticonView -> [Octicons](https://github.com/styleguide/css/7.0)
+  - Will look for ``octicons_regular.ttf`` in your application's ``assets`` directory
 * FontAwesomeView -> [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
+  - Will look for ``fontawesome.ttf`` in your application's ``assets`` directory
 
 Using & Such
 ------------
@@ -26,7 +28,8 @@ your project. You're then ready to start using Andicons!
 
 Andicons does not provide the actual TrueType font files per se. It's up to you to get
 permission (if needed) to use these sets as well as track down the file for inclusion
-in your application.
+in your application. See the above section titled "Built-in Support" to see more details
+on specific filenames and locations.
 
 You can add Andicons programmatically or directly into layouts, like so:
 
