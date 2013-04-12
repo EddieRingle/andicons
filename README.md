@@ -14,6 +14,13 @@ implementations for the following glyph sets:
   - Will look for ``octicons_regular.ttf`` in your application's ``assets`` directory
 * FontAwesomeView -> [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
   - Will look for ``fontawesome.ttf`` in your application's ``assets`` directory
+* Font Awesome More Sets -> [Font Awesome More](http://gregoryloucas.github.io/Font-Awesome-More/)
+  - FontAwesomeMoreExtView
+    * Will look for ``fontawesome_more_ext.ttf`` in your application's ``assets`` directory
+  - FontAwesomeMoreSocialView
+    * Will look for ``fontawesome_more_social.ttf`` in your application's ``assets`` directory
+  - FontAwesomeMoreCorpView
+    * Will look for ``fontawesome_more_corp.ttf`` in your application's ``assets`` directory
 
 Using & Such
 ------------

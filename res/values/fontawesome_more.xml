@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2013 Eddie Ringle
+  ~ All rights reserved.
+  ~
+  ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
+  ~ following conditions are met:
+  ~
+  ~ Redistributions of source code must retain the above copyright notice, this list of conditions and the following
+  ~ disclaimer.
+  ~ Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following
+  ~ disclaimer in the documentation and/or other materials provided with the distribution.
+  ~
+  ~ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+  ~ INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+  ~ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  ~ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+  ~ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+  ~ WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+  ~ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+  -->
+<resources>
+    <!-- Ext pack -->
+     <item type="id" name="fontawesome_more_accessibility_sign" />
+     <item type="id" name="fontawesome_more_bike_sign" />
+     <item type="id" name="fontawesome_more_bus_sign" />
+     <item type="id" name="fontawesome_more_car_sign" />
+     <item type="id" name="fontawesome_more_taxi_sign" />
+     <item type="id" name="fontawesome_more_truck_sign" />
+     <item type="id" name="fontawesome_more_adobe_pdf" />
+     <item type="id" name="fontawesome_more_ms_excel" />
+     <item type="id" name="fontawesome_more_ms_ppt" />
+     <item type="id" name="fontawesome_more_ms_word" />
+     <item type="id" name="fontawesome_more_zip_file" />
+     <item type="id" name="fontawesome_more_css3" />
+     <item type="id" name="fontawesome_more_html5" />
+     <item type="id" name="fontawesome_more_layers" />
+     <item type="id" name="fontawesome_more_map" />
+     <item type="id" name="fontawesome_more_chrome" />
+     <item type="id" name="fontawesome_more_firefox" />
+     <item type="id" name="fontawesome_more_ie" />
+     <item type="id" name="fontawesome_more_opera" />
+     <item type="id" name="fontawesome_more_safari" />
+     <item type="id" name="fontawesome_more_rss_sign" />
+    <!-- /Ext pack -->
+
+    <!-- Social pack -->
+     <item type="id" name="fontawesome_more_dropbox" />
+     <item type="id" name="fontawesome_more_drupal" />
+     <item type="id" name="fontawesome_more_git_fork" />
+     <item type="id" name="fontawesome_more_instagram" />
+     <item type="id" name="fontawesome_more_share_this_sign" />
+     <item type="id" name="fontawesome_more_share_this" />
+     <item type="id" name="fontawesome_more_foursquare_sign" />
+     <item type="id" name="fontawesome_more_foursquare" />
+     <item type="id" name="fontawesome_more_hacker_news" />
+     <item type="id" name="fontawesome_more_skype" />
+     <item type="id" name="fontawesome_more_spotify" />
+     <item type="id" name="fontawesome_more_soundcloud" />
+     <item type="id" name="fontawesome_more_paypal" />
+     <item type="id" name="fontawesome_more_youtube_sign" />
+     <item type="id" name="fontawesome_more_youtube" />
+     <item type="id" name="fontawesome_more_reddit" />
+     <item type="id" name="fontawesome_more_blogger_sign" />
+     <item type="id" name="fontawesome_more_blogger" />
+     <item type="id" name="fontawesome_more_dribbble_sign" />
+     <item type="id" name="fontawesome_more_dribbble" />
+     <item type="id" name="fontawesome_more_evernote_sign" />
+     <item type="id" name="fontawesome_more_evernote" />
+     <item type="id" name="fontawesome_more_flickr_sign" />
+     <item type="id" name="fontawesome_more_flickr" />
+     <item type="id" name="fontawesome_more_forrst_sign" />
+     <item type="id" name="fontawesome_more_forrst" />
+     <item type="id" name="fontawesome_more_delicious" />
+     <item type="id" name="fontawesome_more_lastfm_sign" />
+     <item type="id" name="fontawesome_more_lastfm" />
+     <item type="id" name="fontawesome_more_picasa_sign" />
+     <item type="id" name="fontawesome_more_picasa" />
+     <item type="id" name="fontawesome_more_stack_overflow" />
+     <item type="id" name="fontawesome_more_tumblr_sign" />
+     <item type="id" name="fontawesome_more_tumblr" />
+     <item type="id" name="fontawesome_more_vimeo_sign" />
+     <item type="id" name="fontawesome_more_vimeo" />
+     <item type="id" name="fontawesome_more_wordpress_sign" />
+     <item type="id" name="fontawesome_more_wordpress" />
+     <item type="id" name="fontawesome_more_yelp_sign" />
+     <item type="id" name="fontawesome_more_yelp" />
+    <!-- /Social pack -->
+
+    <!-- Corp pack -->
+     <item type="id" name="fontawesome_more_amazon_sign" />
+     <item type="id" name="fontawesome_more_amazon" />
+     <item type="id" name="fontawesome_more_android" />
+     <item type="id" name="fontawesome_more_apple_itunes" />
+     <item type="id" name="fontawesome_more_apple" />
+     <item type="id" name="fontawesome_more_aws" />
+     <item type="id" name="fontawesome_more_bing_sign" />
+     <item type="id" name="fontawesome_more_bing" />
+     <item type="id" name="fontawesome_more_duck_duck_go" />
+     <item type="id" name="fontawesome_more_google_sign" />
+     <item type="id" name="fontawesome_more_google" />
+     <item type="id" name="fontawesome_more_sparrow_sign" />
+     <item type="id" name="fontawesome_more_sparrow" />
+     <item type="id" name="fontawesome_more_windows" />
+     <item type="id" name="fontawesome_more_windows8" />
+     <item type="id" name="fontawesome_more_yahoo" />
+    <!-- /Corp pack -->
+</resources>
