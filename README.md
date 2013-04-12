@@ -7,19 +7,19 @@ in your Android applications!
 Built-in Support
 ----------------
 
-Currently, the Andicons library provides the base AndiconView class as well as
-implementations for the following glyph sets:
+Currently, the Andicons library provides the AndiconView class as well as
+support for the following glyph sets:
 
-* OcticonView -> [Octicons](https://github.com/styleguide/css/7.0)
+* OcticonsSet -> [Octicons](https://github.com/styleguide/css/7.0)
     - Will look for ``octicons_regular.ttf`` in your application's ``assets`` directory
-* FontAwesomeView -> [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
+* FontAwesomeSet -> [Font Awesome](http://fortawesome.github.com/Font-Awesome/)
     - Will look for ``fontawesome.ttf`` in your application's ``assets`` directory
 * Font Awesome More Sets -> [Font Awesome More](http://gregoryloucas.github.io/Font-Awesome-More/)
-    - FontAwesomeMoreExtView
+    - FontAwesomeMoreExtSet
         + Will look for ``fontawesome_more_ext.ttf`` in your application's ``assets`` directory
-    - FontAwesomeMoreSocialView
+    - FontAwesomeMoreSocialSet
         + Will look for ``fontawesome_more_social.ttf`` in your application's ``assets`` directory
-    - FontAwesomeMoreCorpView
+    - FontAwesomeMoreCorpSet
         + Will look for ``fontawesome_more_corp.ttf`` in your application's ``assets`` directory
 
 Using & Such
@@ -38,14 +38,19 @@ permission (if needed) to use these sets as well as track down the file for incl
 in your application. See the above section titled "Built-in Support" to see more details
 on specific filenames and locations.
 
-You can add Andicons programmatically or directly into layouts, like so:
+You can add Andicons programmatically, or directly into layouts, like so:
 
-    <com.github.eddieringle.android.libs.andicons.sets.FontAwesomeView
+    <com.github.eddieringle.android.libs.andicons.AndiconView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@id/fontawesome_leaf"
             android:textColor="@color/android_green"
-            android:textSize="64sp" />
+            android:textSize="64sp"
+            app:andicon_set="fontawesome"
+            app:andicon_id="@integer/fontawesome_leaf" />
+
+You can also set the andicon used by the AndiconView programmatically, for example:
+
+    andiconView.setAndicon(AndiconView.SET_FONTAWESOME, FontAwesomeSet.IC_LEAF);
 
 The above would result in this (don't mind the other bits, I just threw this example into another application I'm working on because I was lazy):
 
