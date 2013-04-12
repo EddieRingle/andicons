@@ -21,88 +21,88 @@
   -->
 <resources>
     <!-- Ext pack -->
-     <item type="id" name="fontawesome_more_accessibility_sign" />
-     <item type="id" name="fontawesome_more_bike_sign" />
-     <item type="id" name="fontawesome_more_bus_sign" />
-     <item type="id" name="fontawesome_more_car_sign" />
-     <item type="id" name="fontawesome_more_taxi_sign" />
-     <item type="id" name="fontawesome_more_truck_sign" />
-     <item type="id" name="fontawesome_more_adobe_pdf" />
-     <item type="id" name="fontawesome_more_ms_excel" />
-     <item type="id" name="fontawesome_more_ms_ppt" />
-     <item type="id" name="fontawesome_more_ms_word" />
-     <item type="id" name="fontawesome_more_zip_file" />
-     <item type="id" name="fontawesome_more_css3" />
-     <item type="id" name="fontawesome_more_html5" />
-     <item type="id" name="fontawesome_more_layers" />
-     <item type="id" name="fontawesome_more_map" />
-     <item type="id" name="fontawesome_more_chrome" />
-     <item type="id" name="fontawesome_more_firefox" />
-     <item type="id" name="fontawesome_more_ie" />
-     <item type="id" name="fontawesome_more_opera" />
-     <item type="id" name="fontawesome_more_safari" />
-     <item type="id" name="fontawesome_more_rss_sign" />
+     <item type="integer" name="fontawesome_more_accessibility_sign">0xf200</item>
+     <item type="integer" name="fontawesome_more_bike_sign">0xf201</item>
+     <item type="integer" name="fontawesome_more_bus_sign">0xf202</item>
+     <item type="integer" name="fontawesome_more_car_sign">0xf203</item>
+     <item type="integer" name="fontawesome_more_taxi_sign">0xf204</item>
+     <item type="integer" name="fontawesome_more_truck_sign">0xf205</item>
+     <item type="integer" name="fontawesome_more_adobe_pdf">0xf206</item>
+     <item type="integer" name="fontawesome_more_ms_excel">0xf207</item>
+     <item type="integer" name="fontawesome_more_ms_ppt">0xf208</item>
+     <item type="integer" name="fontawesome_more_ms_word">0xf209</item>
+     <item type="integer" name="fontawesome_more_zip_file">0xf20a</item>
+     <item type="integer" name="fontawesome_more_css3">0xf20b</item>
+     <item type="integer" name="fontawesome_more_html5">0xf20c</item>
+     <item type="integer" name="fontawesome_more_layers">0xf20d</item>
+     <item type="integer" name="fontawesome_more_map">0xf20e</item>
+     <item type="integer" name="fontawesome_more_chrome">0xf210</item>
+     <item type="integer" name="fontawesome_more_firefox">0xf211</item>
+     <item type="integer" name="fontawesome_more_ie">0xf212</item>
+     <item type="integer" name="fontawesome_more_opera">0xf213</item>
+     <item type="integer" name="fontawesome_more_safari">0xf214</item>
+     <item type="integer" name="fontawesome_more_rss_sign">0xf215</item>
     <!-- /Ext pack -->
 
     <!-- Social pack -->
-     <item type="id" name="fontawesome_more_dropbox" />
-     <item type="id" name="fontawesome_more_drupal" />
-     <item type="id" name="fontawesome_more_git_fork" />
-     <item type="id" name="fontawesome_more_instagram" />
-     <item type="id" name="fontawesome_more_share_this_sign" />
-     <item type="id" name="fontawesome_more_share_this" />
-     <item type="id" name="fontawesome_more_foursquare_sign" />
-     <item type="id" name="fontawesome_more_foursquare" />
-     <item type="id" name="fontawesome_more_hacker_news" />
-     <item type="id" name="fontawesome_more_skype" />
-     <item type="id" name="fontawesome_more_spotify" />
-     <item type="id" name="fontawesome_more_soundcloud" />
-     <item type="id" name="fontawesome_more_paypal" />
-     <item type="id" name="fontawesome_more_youtube_sign" />
-     <item type="id" name="fontawesome_more_youtube" />
-     <item type="id" name="fontawesome_more_reddit" />
-     <item type="id" name="fontawesome_more_blogger_sign" />
-     <item type="id" name="fontawesome_more_blogger" />
-     <item type="id" name="fontawesome_more_dribbble_sign" />
-     <item type="id" name="fontawesome_more_dribbble" />
-     <item type="id" name="fontawesome_more_evernote_sign" />
-     <item type="id" name="fontawesome_more_evernote" />
-     <item type="id" name="fontawesome_more_flickr_sign" />
-     <item type="id" name="fontawesome_more_flickr" />
-     <item type="id" name="fontawesome_more_forrst_sign" />
-     <item type="id" name="fontawesome_more_forrst" />
-     <item type="id" name="fontawesome_more_delicious" />
-     <item type="id" name="fontawesome_more_lastfm_sign" />
-     <item type="id" name="fontawesome_more_lastfm" />
-     <item type="id" name="fontawesome_more_picasa_sign" />
-     <item type="id" name="fontawesome_more_picasa" />
-     <item type="id" name="fontawesome_more_stack_overflow" />
-     <item type="id" name="fontawesome_more_tumblr_sign" />
-     <item type="id" name="fontawesome_more_tumblr" />
-     <item type="id" name="fontawesome_more_vimeo_sign" />
-     <item type="id" name="fontawesome_more_vimeo" />
-     <item type="id" name="fontawesome_more_wordpress_sign" />
-     <item type="id" name="fontawesome_more_wordpress" />
-     <item type="id" name="fontawesome_more_yelp_sign" />
-     <item type="id" name="fontawesome_more_yelp" />
+     <item type="integer" name="fontawesome_more_dropbox">0xf300</item>
+     <item type="integer" name="fontawesome_more_drupal">0xf301</item>
+     <item type="integer" name="fontawesome_more_git_fork">0xf302</item>
+     <item type="integer" name="fontawesome_more_instagram">0xf303</item>
+     <item type="integer" name="fontawesome_more_share_this_sign">0xf304</item>
+     <item type="integer" name="fontawesome_more_share_this">0xf305</item>
+     <item type="integer" name="fontawesome_more_foursquare_sign">0xf306</item>
+     <item type="integer" name="fontawesome_more_foursquare">0xf307</item>
+     <item type="integer" name="fontawesome_more_hacker_news">0xf308</item>
+     <item type="integer" name="fontawesome_more_skype">0xf309</item>
+     <item type="integer" name="fontawesome_more_spotify">0xf30a</item>
+     <item type="integer" name="fontawesome_more_soundcloud">0xf30b</item>
+     <item type="integer" name="fontawesome_more_paypal">0xf30c</item>
+     <item type="integer" name="fontawesome_more_youtube_sign">0xf30d</item>
+     <item type="integer" name="fontawesome_more_youtube">0xf30e</item>
+     <item type="integer" name="fontawesome_more_reddit">0xf30f</item>
+     <item type="integer" name="fontawesome_more_blogger_sign">0xf310</item>
+     <item type="integer" name="fontawesome_more_blogger">0xf311</item>
+     <item type="integer" name="fontawesome_more_dribbble_sign">0xf312</item>
+     <item type="integer" name="fontawesome_more_dribbble">0xf313</item>
+     <item type="integer" name="fontawesome_more_evernote_sign">0xf314</item>
+     <item type="integer" name="fontawesome_more_evernote">0xf315</item>
+     <item type="integer" name="fontawesome_more_flickr_sign">0xf316</item>
+     <item type="integer" name="fontawesome_more_flickr">0xf317</item>
+     <item type="integer" name="fontawesome_more_forrst_sign">0xf318</item>
+     <item type="integer" name="fontawesome_more_forrst">0xf319</item>
+     <item type="integer" name="fontawesome_more_delicious">0xf31a</item>
+     <item type="integer" name="fontawesome_more_lastfm_sign">0xf31b</item>
+     <item type="integer" name="fontawesome_more_lastfm">0xf31c</item>
+     <item type="integer" name="fontawesome_more_picasa_sign">0xf31d</item>
+     <item type="integer" name="fontawesome_more_picasa">0xf31e</item>
+     <item type="integer" name="fontawesome_more_stack_overflow">0xf320</item>
+     <item type="integer" name="fontawesome_more_tumblr_sign">0xf321</item>
+     <item type="integer" name="fontawesome_more_tumblr">0xf322</item>
+     <item type="integer" name="fontawesome_more_vimeo_sign">0xf323</item>
+     <item type="integer" name="fontawesome_more_vimeo">0xf324</item>
+     <item type="integer" name="fontawesome_more_wordpress_sign">0xf325</item>
+     <item type="integer" name="fontawesome_more_wordpress">0xf326</item>
+     <item type="integer" name="fontawesome_more_yelp_sign">0xf327</item>
+     <item type="integer" name="fontawesome_more_yelp">0xf328</item>
     <!-- /Social pack -->
 
     <!-- Corp pack -->
-     <item type="id" name="fontawesome_more_amazon_sign" />
-     <item type="id" name="fontawesome_more_amazon" />
-     <item type="id" name="fontawesome_more_android" />
-     <item type="id" name="fontawesome_more_apple_itunes" />
-     <item type="id" name="fontawesome_more_apple" />
-     <item type="id" name="fontawesome_more_aws" />
-     <item type="id" name="fontawesome_more_bing_sign" />
-     <item type="id" name="fontawesome_more_bing" />
-     <item type="id" name="fontawesome_more_duck_duck_go" />
-     <item type="id" name="fontawesome_more_google_sign" />
-     <item type="id" name="fontawesome_more_google" />
-     <item type="id" name="fontawesome_more_sparrow_sign" />
-     <item type="id" name="fontawesome_more_sparrow" />
-     <item type="id" name="fontawesome_more_windows" />
-     <item type="id" name="fontawesome_more_windows8" />
-     <item type="id" name="fontawesome_more_yahoo" />
+     <item type="integer" name="fontawesome_more_amazon_sign">0xf340</item>
+     <item type="integer" name="fontawesome_more_amazon">0xf341</item>
+     <item type="integer" name="fontawesome_more_android">0xf342</item>
+     <item type="integer" name="fontawesome_more_apple_itunes">0xf343</item>
+     <item type="integer" name="fontawesome_more_apple">0xf344</item>
+     <item type="integer" name="fontawesome_more_aws">0xf345</item>
+     <item type="integer" name="fontawesome_more_bing_sign">0xf346</item>
+     <item type="integer" name="fontawesome_more_bing">0xf347</item>
+     <item type="integer" name="fontawesome_more_duck_duck_go">0xf348</item>
+     <item type="integer" name="fontawesome_more_google_sign">0xf349</item>
+     <item type="integer" name="fontawesome_more_google">0xf34a</item>
+     <item type="integer" name="fontawesome_more_sparrow_sign">0xf34b</item>
+     <item type="integer" name="fontawesome_more_sparrow">0xf34c</item>
+     <item type="integer" name="fontawesome_more_windows">0xf34d</item>
+     <item type="integer" name="fontawesome_more_windows8">0xf34e</item>
+     <item type="integer" name="fontawesome_more_yahoo">0xf34f</item>
     <!-- /Corp pack -->
 </resources>

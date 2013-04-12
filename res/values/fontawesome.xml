@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (c) 2012 Eddie Ringle
+  ~ Copyright (c) 2012-2013 Eddie Ringle
   ~ All rights reserved.
   ~
   ~ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the
@@ -20,253 +20,253 @@
   ~ USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   -->
 <resources>
-    <item type="id" name="fontawesome_glass" />
-    <item type="id" name="fontawesome_music" />
-    <item type="id" name="fontawesome_search" />
-    <item type="id" name="fontawesome_envelope" />
-    <item type="id" name="fontawesome_heart" />
-    <item type="id" name="fontawesome_star" />
-    <item type="id" name="fontawesome_star_empty" />
-    <item type="id" name="fontawesome_user" />
-    <item type="id" name="fontawesome_film" />
-    <item type="id" name="fontawesome_th_large" />
-    <item type="id" name="fontawesome_th" />
-    <item type="id" name="fontawesome_th_list" />
-    <item type="id" name="fontawesome_ok" />
-    <item type="id" name="fontawesome_remove" />
-    <item type="id" name="fontawesome_zoom_in" />
-    <item type="id" name="fontawesome_zoom_out" />
-    <item type="id" name="fontawesome_off" />
-    <item type="id" name="fontawesome_signal" />
-    <item type="id" name="fontawesome_cog" />
-    <item type="id" name="fontawesome_trash" />
-    <item type="id" name="fontawesome_home" />
-    <item type="id" name="fontawesome_file" />
-    <item type="id" name="fontawesome_time" />
-    <item type="id" name="fontawesome_road" />
-    <item type="id" name="fontawesome_download_alt" />
-    <item type="id" name="fontawesome_download" />
-    <item type="id" name="fontawesome_upload" />
-    <item type="id" name="fontawesome_inbox" />
-    <item type="id" name="fontawesome_play_circle" />
-    <item type="id" name="fontawesome_repeat" />
-    <item type="id" name="fontawesome_refresh" />
-    <item type="id" name="fontawesome_list_alt" />
-    <item type="id" name="fontawesome_lock" />
-    <item type="id" name="fontawesome_flag" />
-    <item type="id" name="fontawesome_headphones" />
-    <item type="id" name="fontawesome_volume_off" />
-    <item type="id" name="fontawesome_volume_down" />
-    <item type="id" name="fontawesome_volume_up" />
-    <item type="id" name="fontawesome_qrcode" />
-    <item type="id" name="fontawesome_barcode" />
-    <item type="id" name="fontawesome_tag" />
-    <item type="id" name="fontawesome_tags" />
-    <item type="id" name="fontawesome_book" />
-    <item type="id" name="fontawesome_bookmark" />
-    <item type="id" name="fontawesome_print" />
-    <item type="id" name="fontawesome_camera" />
-    <item type="id" name="fontawesome_font" />
-    <item type="id" name="fontawesome_bold" />
-    <item type="id" name="fontawesome_italic" />
-    <item type="id" name="fontawesome_text_height" />
-    <item type="id" name="fontawesome_text_width" />
-    <item type="id" name="fontawesome_align_left" />
-    <item type="id" name="fontawesome_align_center" />
-    <item type="id" name="fontawesome_align_right" />
-    <item type="id" name="fontawesome_align_justify" />
-    <item type="id" name="fontawesome_list" />
-    <item type="id" name="fontawesome_indent_left" />
-    <item type="id" name="fontawesome_indent_right" />
-    <item type="id" name="fontawesome_facetime_video" />
-    <item type="id" name="fontawesome_picture" />
-    <item type="id" name="fontawesome_pencil" />
-    <item type="id" name="fontawesome_map_marker" />
-    <item type="id" name="fontawesome_adjust" />
-    <item type="id" name="fontawesome_tint" />
-    <item type="id" name="fontawesome_edit" />
-    <item type="id" name="fontawesome_share" />
-    <item type="id" name="fontawesome_check" />
-    <item type="id" name="fontawesome_move" />
-    <item type="id" name="fontawesome_step_backward" />
-    <item type="id" name="fontawesome_fast_backward" />
-    <item type="id" name="fontawesome_backward" />
-    <item type="id" name="fontawesome_play" />
-    <item type="id" name="fontawesome_pause" />
-    <item type="id" name="fontawesome_stop" />
-    <item type="id" name="fontawesome_forward" />
-    <item type="id" name="fontawesome_fast_forward" />
-    <item type="id" name="fontawesome_step_forward" />
-    <item type="id" name="fontawesome_eject" />
-    <item type="id" name="fontawesome_chevron_left" />
-    <item type="id" name="fontawesome_chevron_right" />
-    <item type="id" name="fontawesome_plus_sign" />
-    <item type="id" name="fontawesome_minus_sign" />
-    <item type="id" name="fontawesome_remove_sign" />
-    <item type="id" name="fontawesome_ok_sign" />
-    <item type="id" name="fontawesome_question_sign" />
-    <item type="id" name="fontawesome_info_sign" />
-    <item type="id" name="fontawesome_screenshot" />
-    <item type="id" name="fontawesome_remove_circle" />
-    <item type="id" name="fontawesome_ok_circle" />
-    <item type="id" name="fontawesome_ban_circle" />
-    <item type="id" name="fontawesome_arrow_left" />
-    <item type="id" name="fontawesome_arrow_right" />
-    <item type="id" name="fontawesome_arrow_up" />
-    <item type="id" name="fontawesome_arrow_down" />
-    <item type="id" name="fontawesome_share_alt" />
-    <item type="id" name="fontawesome_resize_full" />
-    <item type="id" name="fontawesome_resize_small" />
-    <item type="id" name="fontawesome_plus" />
-    <item type="id" name="fontawesome_minus" />
-    <item type="id" name="fontawesome_asterisk" />
-    <item type="id" name="fontawesome_exclamation_sign" />
-    <item type="id" name="fontawesome_gift" />
-    <item type="id" name="fontawesome_leaf" />
-    <item type="id" name="fontawesome_fire" />
-    <item type="id" name="fontawesome_eye_open" />
-    <item type="id" name="fontawesome_eye_close" />
-    <item type="id" name="fontawesome_warning_sign" />
-    <item type="id" name="fontawesome_plane" />
-    <item type="id" name="fontawesome_calendar" />
-    <item type="id" name="fontawesome_random" />
-    <item type="id" name="fontawesome_comment" />
-    <item type="id" name="fontawesome_magnet" />
-    <item type="id" name="fontawesome_chevron_up" />
-    <item type="id" name="fontawesome_chevron_down" />
-    <item type="id" name="fontawesome_retweet" />
-    <item type="id" name="fontawesome_shopping_cart" />
-    <item type="id" name="fontawesome_folder_close" />
-    <item type="id" name="fontawesome_folder_open" />
-    <item type="id" name="fontawesome_resize_vertical" />
-    <item type="id" name="fontawesome_resize_horizontal" />
-    <item type="id" name="fontawesome_bar_chart" />
-    <item type="id" name="fontawesome_twitter_sign" />
-    <item type="id" name="fontawesome_facebook_sign" />
-    <item type="id" name="fontawesome_camera_retro" />
-    <item type="id" name="fontawesome_key" />
-    <item type="id" name="fontawesome_cogs" />
-    <item type="id" name="fontawesome_comments" />
-    <item type="id" name="fontawesome_thumbs_up" />
-    <item type="id" name="fontawesome_thumbs_down" />
-    <item type="id" name="fontawesome_star_half" />
-    <item type="id" name="fontawesome_heart_empty" />
-    <item type="id" name="fontawesome_signout" />
-    <item type="id" name="fontawesome_linkedin_sign" />
-    <item type="id" name="fontawesome_pushpin" />
-    <item type="id" name="fontawesome_external_link" />
-    <item type="id" name="fontawesome_signin" />
-    <item type="id" name="fontawesome_trophy" />
-    <item type="id" name="fontawesome_github_sign" />
-    <item type="id" name="fontawesome_upload_alt" />
-    <item type="id" name="fontawesome_lemon" />
-    <item type="id" name="fontawesome_phone" />
-    <item type="id" name="fontawesome_check_empty" />
-    <item type="id" name="fontawesome_bookmark_empty" />
-    <item type="id" name="fontawesome_phone_sign" />
-    <item type="id" name="fontawesome_twitter" />
-    <item type="id" name="fontawesome_facebook" />
-    <item type="id" name="fontawesome_github" />
-    <item type="id" name="fontawesome_unlock" />
-    <item type="id" name="fontawesome_credit_card" />
-    <item type="id" name="fontawesome_rss" />
-    <item type="id" name="fontawesome_hdd" />
-    <item type="id" name="fontawesome_bullhorn" />
-    <item type="id" name="fontawesome_bell" />
-    <item type="id" name="fontawesome_certificate" />
-    <item type="id" name="fontawesome_hand_right" />
-    <item type="id" name="fontawesome_hand_left" />
-    <item type="id" name="fontawesome_hand_up" />
-    <item type="id" name="fontawesome_hand_down" />
-    <item type="id" name="fontawesome_circle_arrow_left" />
-    <item type="id" name="fontawesome_circle_arrow_right" />
-    <item type="id" name="fontawesome_circle_arrow_up" />
-    <item type="id" name="fontawesome_circle_arrow_down" />
-    <item type="id" name="fontawesome_globe" />
-    <item type="id" name="fontawesome_wrench" />
-    <item type="id" name="fontawesome_tasks" />
-    <item type="id" name="fontawesome_filter" />
-    <item type="id" name="fontawesome_briefcase" />
-    <item type="id" name="fontawesome_fullscreen" />
-    <item type="id" name="fontawesome_group" />
-    <item type="id" name="fontawesome_link" />
-    <item type="id" name="fontawesome_cloud" />
-    <item type="id" name="fontawesome_beaker" />
-    <item type="id" name="fontawesome_cut" />
-    <item type="id" name="fontawesome_copy" />
-    <item type="id" name="fontawesome_paper_clip" />
-    <item type="id" name="fontawesome_save" />
-    <item type="id" name="fontawesome_sign_blank" />
-    <item type="id" name="fontawesome_reorder" />
-    <item type="id" name="fontawesome_list_ul" />
-    <item type="id" name="fontawesome_list_ol" />
-    <item type="id" name="fontawesome_strikethrough" />
-    <item type="id" name="fontawesome_underline" />
-    <item type="id" name="fontawesome_table" />
-    <item type="id" name="fontawesome_magic" />
-    <item type="id" name="fontawesome_truck" />
-    <item type="id" name="fontawesome_pinterest" />
-    <item type="id" name="fontawesome_pinterest_sign" />
-    <item type="id" name="fontawesome_google_plus_sign" />
-    <item type="id" name="fontawesome_google_plus" />
-    <item type="id" name="fontawesome_money" />
-    <item type="id" name="fontawesome_caret_down" />
-    <item type="id" name="fontawesome_caret_up" />
-    <item type="id" name="fontawesome_caret_left" />
-    <item type="id" name="fontawesome_caret_right" />
-    <item type="id" name="fontawesome_columns" />
-    <item type="id" name="fontawesome_sort" />
-    <item type="id" name="fontawesome_sort_down" />
-    <item type="id" name="fontawesome_sort_up" />
-    <item type="id" name="fontawesome_envelope_alt" />
-    <item type="id" name="fontawesome_linkedin" />
-    <item type="id" name="fontawesome_undo" />
-    <item type="id" name="fontawesome_legal" />
-    <item type="id" name="fontawesome_dashboard" />
-    <item type="id" name="fontawesome_comment_alt" />
-    <item type="id" name="fontawesome_comments_alt" />
-    <item type="id" name="fontawesome_bolt" />
-    <item type="id" name="fontawesome_sitemap" />
-    <item type="id" name="fontawesome_umbrella" />
-    <item type="id" name="fontawesome_paste" />
-    <item type="id" name="fontawesome_lightbulb" />
-    <item type="id" name="fontawesome_exchange" />
-    <item type="id" name="fontawesome_cloud_download" />
-    <item type="id" name="fontawesome_cloud_upload" />
-    <item type="id" name="fontawesome_user_md" />
-    <item type="id" name="fontawesome_stethoscope" />
-    <item type="id" name="fontawesome_suitcase" />
-    <item type="id" name="fontawesome_bell_alt" />
-    <item type="id" name="fontawesome_coffee" />
-    <item type="id" name="fontawesome_food" />
-    <item type="id" name="fontawesome_file_alt" />
-    <item type="id" name="fontawesome_building" />
-    <item type="id" name="fontawesome_hospital" />
-    <item type="id" name="fontawesome_ambulance" />
-    <item type="id" name="fontawesome_medkit" />
-    <item type="id" name="fontawesome_fighter_jet" />
-    <item type="id" name="fontawesome_beer" />
-    <item type="id" name="fontawesome_h_sign" />
-    <item type="id" name="fontawesome_plus_sign_alt" />
-    <item type="id" name="fontawesome_double_angle_left" />
-    <item type="id" name="fontawesome_double_angle_right" />
-    <item type="id" name="fontawesome_double_angle_up" />
-    <item type="id" name="fontawesome_double_angle_down" />
-    <item type="id" name="fontawesome_angle_left" />
-    <item type="id" name="fontawesome_angle_right" />
-    <item type="id" name="fontawesome_angle_up" />
-    <item type="id" name="fontawesome_angle_down" />
-    <item type="id" name="fontawesome_desktop" />
-    <item type="id" name="fontawesome_laptop" />
-    <item type="id" name="fontawesome_tablet" />
-    <item type="id" name="fontawesome_mobile_phone" />
-    <item type="id" name="fontawesome_circle_blank" />
-    <item type="id" name="fontawesome_quote_left" />
-    <item type="id" name="fontawesome_quote_right" />
-    <item type="id" name="fontawesome_spinner" />
-    <item type="id" name="fontawesome_circle" />
-    <item type="id" name="fontawesome_reply" />
-    <item type="id" name="fontawesome_github_alt" />
-    <item type="id" name="fontawesome_folder_close_alt" />
-    <item type="id" name="fontawesome_folder_open_alt" />
+    <item type="integer" name="fontawesome_glass">0xf000</item>
+    <item type="integer" name="fontawesome_music">0xf001</item>
+    <item type="integer" name="fontawesome_search">0xf002</item>
+    <item type="integer" name="fontawesome_envelope">0xf003</item>
+    <item type="integer" name="fontawesome_heart">0xf004</item>
+    <item type="integer" name="fontawesome_star">0xf005</item>
+    <item type="integer" name="fontawesome_star_empty">0xf006</item>
+    <item type="integer" name="fontawesome_user">0xf007</item>
+    <item type="integer" name="fontawesome_film">0xf008</item>
+    <item type="integer" name="fontawesome_th_large">0xf009</item>
+    <item type="integer" name="fontawesome_th">0xf00a</item>
+    <item type="integer" name="fontawesome_th_list">0xf00b</item>
+    <item type="integer" name="fontawesome_ok">0xf00c</item>
+    <item type="integer" name="fontawesome_remove">0xf00d</item>
+    <item type="integer" name="fontawesome_zoom_in">0xf00e</item>
+    <item type="integer" name="fontawesome_zoom_out">0xf010</item>
+    <item type="integer" name="fontawesome_off">0xf011</item>
+    <item type="integer" name="fontawesome_signal">0xf012</item>
+    <item type="integer" name="fontawesome_cog">0xf013</item>
+    <item type="integer" name="fontawesome_trash">0xf014</item>
+    <item type="integer" name="fontawesome_home">0xf015</item>
+    <item type="integer" name="fontawesome_file">0xf016</item>
+    <item type="integer" name="fontawesome_time">0xf017</item>
+    <item type="integer" name="fontawesome_road">0xf018</item>
+    <item type="integer" name="fontawesome_download_alt">0xf019</item>
+    <item type="integer" name="fontawesome_download">0xf01a</item>
+    <item type="integer" name="fontawesome_upload">0xf01b</item>
+    <item type="integer" name="fontawesome_inbox">0xf01c</item>
+    <item type="integer" name="fontawesome_play_circle">0xf01d</item>
+    <item type="integer" name="fontawesome_repeat">0xf01e</item>
+    <item type="integer" name="fontawesome_refresh">0xf021</item>
+    <item type="integer" name="fontawesome_list_alt">0xf022</item>
+    <item type="integer" name="fontawesome_lock">0xf023</item>
+    <item type="integer" name="fontawesome_flag">0xf024</item>
+    <item type="integer" name="fontawesome_headphones">0xf025</item>
+    <item type="integer" name="fontawesome_volume_off">0xf026</item>
+    <item type="integer" name="fontawesome_volume_down">0xf027</item>
+    <item type="integer" name="fontawesome_volume_up">0xf028</item>
+    <item type="integer" name="fontawesome_qrcode">0xf029</item>
+    <item type="integer" name="fontawesome_barcode">0xf02a</item>
+    <item type="integer" name="fontawesome_tag">0xf02b</item>
+    <item type="integer" name="fontawesome_tags">0xf02c</item>
+    <item type="integer" name="fontawesome_book">0xf02d</item>
+    <item type="integer" name="fontawesome_bookmark">0xf02e</item>
+    <item type="integer" name="fontawesome_print">0xf02f</item>
+    <item type="integer" name="fontawesome_camera">0xf030</item>
+    <item type="integer" name="fontawesome_font">0xf031</item>
+    <item type="integer" name="fontawesome_bold">0xf032</item>
+    <item type="integer" name="fontawesome_italic">0xf033</item>
+    <item type="integer" name="fontawesome_text_height">0xf034</item>
+    <item type="integer" name="fontawesome_text_width">0xf035</item>
+    <item type="integer" name="fontawesome_align_left">0xf036</item>
+    <item type="integer" name="fontawesome_align_center">0xf037</item>
+    <item type="integer" name="fontawesome_align_right">0xf038</item>
+    <item type="integer" name="fontawesome_align_justify">0xf039</item>
+    <item type="integer" name="fontawesome_list">0xf03a</item>
+    <item type="integer" name="fontawesome_indent_left">0xf03b</item>
+    <item type="integer" name="fontawesome_indent_right">0xf03c</item>
+    <item type="integer" name="fontawesome_facetime_video">0xf03d</item>
+    <item type="integer" name="fontawesome_picture">0xf03e</item>
+    <item type="integer" name="fontawesome_pencil">0xf040</item>
+    <item type="integer" name="fontawesome_map_marker">0xf041</item>
+    <item type="integer" name="fontawesome_adjust">0xf042</item>
+    <item type="integer" name="fontawesome_tint">0xf043</item>
+    <item type="integer" name="fontawesome_edit">0xf044</item>
+    <item type="integer" name="fontawesome_share">0xf045</item>
+    <item type="integer" name="fontawesome_check">0xf046</item>
+    <item type="integer" name="fontawesome_move">0xf047</item>
+    <item type="integer" name="fontawesome_step_backward">0xf048</item>
+    <item type="integer" name="fontawesome_fast_backward">0xf049</item>
+    <item type="integer" name="fontawesome_backward">0xf04a</item>
+    <item type="integer" name="fontawesome_play">0xf04b</item>
+    <item type="integer" name="fontawesome_pause">0xf04c</item>
+    <item type="integer" name="fontawesome_stop">0xf04d</item>
+    <item type="integer" name="fontawesome_forward">0xf04e</item>
+    <item type="integer" name="fontawesome_fast_forward">0xf050</item>
+    <item type="integer" name="fontawesome_step_forward">0xf051</item>
+    <item type="integer" name="fontawesome_eject">0xf052</item>
+    <item type="integer" name="fontawesome_chevron_left">0xf053</item>
+    <item type="integer" name="fontawesome_chevron_right">0xf054</item>
+    <item type="integer" name="fontawesome_plus_sign">0xf055</item>
+    <item type="integer" name="fontawesome_minus_sign">0xf056</item>
+    <item type="integer" name="fontawesome_remove_sign">0xf057</item>
+    <item type="integer" name="fontawesome_ok_sign">0xf058</item>
+    <item type="integer" name="fontawesome_question_sign">0xf059</item>
+    <item type="integer" name="fontawesome_info_sign">0xf05a</item>
+    <item type="integer" name="fontawesome_screenshot">0xf05b</item>
+    <item type="integer" name="fontawesome_remove_circle">0xf05c</item>
+    <item type="integer" name="fontawesome_ok_circle">0xf05d</item>
+    <item type="integer" name="fontawesome_ban_circle">0xf05e</item>
+    <item type="integer" name="fontawesome_arrow_left">0xf060</item>
+    <item type="integer" name="fontawesome_arrow_right">0xf061</item>
+    <item type="integer" name="fontawesome_arrow_up">0xf062</item>
+    <item type="integer" name="fontawesome_arrow_down">0xf063</item>
+    <item type="integer" name="fontawesome_share_alt">0xf064</item>
+    <item type="integer" name="fontawesome_resize_full">0xf065</item>
+    <item type="integer" name="fontawesome_resize_small">0xf066</item>
+    <item type="integer" name="fontawesome_plus">0xf067</item>
+    <item type="integer" name="fontawesome_minus">0xf068</item>
+    <item type="integer" name="fontawesome_asterisk">0xf069</item>
+    <item type="integer" name="fontawesome_exclamation_sign">0xf06a</item>
+    <item type="integer" name="fontawesome_gift">0xf06b</item>
+    <item type="integer" name="fontawesome_leaf">0xf06c</item>
+    <item type="integer" name="fontawesome_fire">0xf06d</item>
+    <item type="integer" name="fontawesome_eye_open">0xf06e</item>
+    <item type="integer" name="fontawesome_eye_close">0xf070</item>
+    <item type="integer" name="fontawesome_warning_sign">0xf071</item>
+    <item type="integer" name="fontawesome_plane">0xf072</item>
+    <item type="integer" name="fontawesome_calendar">0xf073</item>
+    <item type="integer" name="fontawesome_random">0xf074</item>
+    <item type="integer" name="fontawesome_comment">0xf075</item>
+    <item type="integer" name="fontawesome_magnet">0xf076</item>
+    <item type="integer" name="fontawesome_chevron_up">0xf077</item>
+    <item type="integer" name="fontawesome_chevron_down">0xf078</item>
+    <item type="integer" name="fontawesome_retweet">0xf079</item>
+    <item type="integer" name="fontawesome_shopping_cart">0xf07a</item>
+    <item type="integer" name="fontawesome_folder_close">0xf07b</item>
+    <item type="integer" name="fontawesome_folder_open">0xf07c</item>
+    <item type="integer" name="fontawesome_resize_vertical">0xf07d</item>
+    <item type="integer" name="fontawesome_resize_horizontal">0xf07e</item>
+    <item type="integer" name="fontawesome_bar_chart">0xf080</item>
+    <item type="integer" name="fontawesome_twitter_sign">0xf081</item>
+    <item type="integer" name="fontawesome_facebook_sign">0xf082</item>
+    <item type="integer" name="fontawesome_camera_retro">0xf083</item>
+    <item type="integer" name="fontawesome_key">0xf084</item>
+    <item type="integer" name="fontawesome_cogs">0xf085</item>
+    <item type="integer" name="fontawesome_comments">0xf086</item>
+    <item type="integer" name="fontawesome_thumbs_up">0xf087</item>
+    <item type="integer" name="fontawesome_thumbs_down">0xf088</item>
+    <item type="integer" name="fontawesome_star_half">0xf089</item>
+    <item type="integer" name="fontawesome_heart_empty">0xf08a</item>
+    <item type="integer" name="fontawesome_signout">0xf08b</item>
+    <item type="integer" name="fontawesome_linkedin_sign">0xf08c</item>
+    <item type="integer" name="fontawesome_pushpin">0xf08d</item>
+    <item type="integer" name="fontawesome_external_link">0xf08e</item>
+    <item type="integer" name="fontawesome_signin">0xf090</item>
+    <item type="integer" name="fontawesome_trophy">0xf091</item>
+    <item type="integer" name="fontawesome_github_sign">0xf092</item>
+    <item type="integer" name="fontawesome_upload_alt">0xf093</item>
+    <item type="integer" name="fontawesome_lemon">0xf094</item>
+    <item type="integer" name="fontawesome_phone">0xf095</item>
+    <item type="integer" name="fontawesome_check_empty">0xf096</item>
+    <item type="integer" name="fontawesome_bookmark_empty">0xf097</item>
+    <item type="integer" name="fontawesome_phone_sign">0xf098</item>
+    <item type="integer" name="fontawesome_twitter">0xf099</item>
+    <item type="integer" name="fontawesome_facebook">0xf09a</item>
+    <item type="integer" name="fontawesome_github">0xf09b</item>
+    <item type="integer" name="fontawesome_unlock">0xf09c</item>
+    <item type="integer" name="fontawesome_credit_card">0xf09d</item>
+    <item type="integer" name="fontawesome_rss">0xf09e</item>
+    <item type="integer" name="fontawesome_hdd">0xf0a0</item>
+    <item type="integer" name="fontawesome_bullhorn">0xf0a1</item>
+    <item type="integer" name="fontawesome_bell">0xf0a2</item>
+    <item type="integer" name="fontawesome_certificate">0xf0a3</item>
+    <item type="integer" name="fontawesome_hand_right">0xf0a4</item>
+    <item type="integer" name="fontawesome_hand_left">0xf0a5</item>
+    <item type="integer" name="fontawesome_hand_up">0xf0a6</item>
+    <item type="integer" name="fontawesome_hand_down">0xf0a7</item>
+    <item type="integer" name="fontawesome_circle_arrow_left">0xf0a8</item>
+    <item type="integer" name="fontawesome_circle_arrow_right">0xf0a9</item>
+    <item type="integer" name="fontawesome_circle_arrow_up">0xf0aa</item>
+    <item type="integer" name="fontawesome_circle_arrow_down">0xf0ab</item>
+    <item type="integer" name="fontawesome_globe">0xf0ac</item>
+    <item type="integer" name="fontawesome_wrench">0xf0ad</item>
+    <item type="integer" name="fontawesome_tasks">0xf0ae</item>
+    <item type="integer" name="fontawesome_filter">0xf0b0</item>
+    <item type="integer" name="fontawesome_briefcase">0xf0b1</item>
+    <item type="integer" name="fontawesome_fullscreen">0xf0b2</item>
+    <item type="integer" name="fontawesome_group">0xf0c0</item>
+    <item type="integer" name="fontawesome_link">0xf0c1</item>
+    <item type="integer" name="fontawesome_cloud">0xf0c2</item>
+    <item type="integer" name="fontawesome_beaker">0xf0c3</item>
+    <item type="integer" name="fontawesome_cut">0xf0c4</item>
+    <item type="integer" name="fontawesome_copy">0xf0c5</item>
+    <item type="integer" name="fontawesome_paper_clip">0xf0c6</item>
+    <item type="integer" name="fontawesome_save">0xf0c7</item>
+    <item type="integer" name="fontawesome_sign_blank">0xf0c8</item>
+    <item type="integer" name="fontawesome_reorder">0xf0c9</item>
+    <item type="integer" name="fontawesome_list_ul">0xf0ca</item>
+    <item type="integer" name="fontawesome_list_ol">0xf0cb</item>
+    <item type="integer" name="fontawesome_strikethrough">0xf0cc</item>
+    <item type="integer" name="fontawesome_underline">0xf0cd</item>
+    <item type="integer" name="fontawesome_table">0xf0ce</item>
+    <item type="integer" name="fontawesome_magic">0xf0d0</item>
+    <item type="integer" name="fontawesome_truck">0xf0d1</item>
+    <item type="integer" name="fontawesome_pinterest">0xf0d2</item>
+    <item type="integer" name="fontawesome_pinterest_sign">0xf0d3</item>
+    <item type="integer" name="fontawesome_google_plus_sign">0xf0d4</item>
+    <item type="integer" name="fontawesome_google_plus">0xf0d5</item>
+    <item type="integer" name="fontawesome_money">0xf0d6</item>
+    <item type="integer" name="fontawesome_caret_down">0xf0d7</item>
+    <item type="integer" name="fontawesome_caret_up">0xf0d8</item>
+    <item type="integer" name="fontawesome_caret_left">0xf0d9</item>
+    <item type="integer" name="fontawesome_caret_right">0xf0da</item>
+    <item type="integer" name="fontawesome_columns">0xf0db</item>
+    <item type="integer" name="fontawesome_sort">0xf0dc</item>
+    <item type="integer" name="fontawesome_sort_down">0xf0dd</item>
+    <item type="integer" name="fontawesome_sort_up">0xf0de</item>
+    <item type="integer" name="fontawesome_envelope_alt">0xf0e0</item>
+    <item type="integer" name="fontawesome_linkedin">0xf0e1</item>
+    <item type="integer" name="fontawesome_undo">0xf0e2</item>
+    <item type="integer" name="fontawesome_legal">0xf0e3</item>
+    <item type="integer" name="fontawesome_dashboard">0xf0e4</item>
+    <item type="integer" name="fontawesome_comment_alt">0xf0e5</item>
+    <item type="integer" name="fontawesome_comments_alt">0xf0e6</item>
+    <item type="integer" name="fontawesome_bolt">0xf0e7</item>
+    <item type="integer" name="fontawesome_sitemap">0xf0e8</item>
+    <item type="integer" name="fontawesome_umbrella">0xf0e9</item>
+    <item type="integer" name="fontawesome_paste">0xf0ea</item>
+    <item type="integer" name="fontawesome_lightbulb">0xf0eb</item>
+    <item type="integer" name="fontawesome_exchange">0xf0ec</item>
+    <item type="integer" name="fontawesome_cloud_download">0xf0ed</item>
+    <item type="integer" name="fontawesome_cloud_upload">0xf0ee</item>
+    <item type="integer" name="fontawesome_user_md">0xf0f0</item>
+    <item type="integer" name="fontawesome_stethoscope">0xf0f1</item>
+    <item type="integer" name="fontawesome_suitcase">0xf0f2</item>
+    <item type="integer" name="fontawesome_bell_alt">0xf0f3</item>
+    <item type="integer" name="fontawesome_coffee">0xf0f4</item>
+    <item type="integer" name="fontawesome_food">0xf0f5</item>
+    <item type="integer" name="fontawesome_file_alt">0xf0f6</item>
+    <item type="integer" name="fontawesome_building">0xf0f7</item>
+    <item type="integer" name="fontawesome_hospital">0xf0f8</item>
+    <item type="integer" name="fontawesome_ambulance">0xf0f9</item>
+    <item type="integer" name="fontawesome_medkit">0xf0fa</item>
+    <item type="integer" name="fontawesome_fighter_jet">0xf0fb</item>
+    <item type="integer" name="fontawesome_beer">0xf0fc</item>
+    <item type="integer" name="fontawesome_h_sign">0xf0fd</item>
+    <item type="integer" name="fontawesome_plus_sign_alt">0xf0fe</item>
+    <item type="integer" name="fontawesome_double_angle_left">0xf100</item>
+    <item type="integer" name="fontawesome_double_angle_right">0xf101</item>
+    <item type="integer" name="fontawesome_double_angle_up">0xf102</item>
+    <item type="integer" name="fontawesome_double_angle_down">0xf103</item>
+    <item type="integer" name="fontawesome_angle_left">0xf104</item>
+    <item type="integer" name="fontawesome_angle_right">0xf105</item>
+    <item type="integer" name="fontawesome_angle_up">0xf106</item>
+    <item type="integer" name="fontawesome_angle_down">0xf107</item>
+    <item type="integer" name="fontawesome_desktop">0xf108</item>
+    <item type="integer" name="fontawesome_laptop">0xf109</item>
+    <item type="integer" name="fontawesome_tablet">0xf10a</item>
+    <item type="integer" name="fontawesome_mobile_phone">0xf10b</item>
+    <item type="integer" name="fontawesome_circle_blank">0xf10c</item>
+    <item type="integer" name="fontawesome_quote_left">0xf10d</item>
+    <item type="integer" name="fontawesome_quote_right">0xf10e</item>
+    <item type="integer" name="fontawesome_spinner">0xf110</item>
+    <item type="integer" name="fontawesome_circle">0xf111</item>
+    <item type="integer" name="fontawesome_reply">0xf112</item>
+    <item type="integer" name="fontawesome_github_alt">0xf113</item>
+    <item type="integer" name="fontawesome_folder_close_alt">0xf114</item>
+    <item type="integer" name="fontawesome_folder_open_alt">0xf115</item>
 </resources>

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012 Eddie Ringle
+ * Copyright (c) 2012-2013 Eddie Ringle
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without modification, are permitted
@@ -23,6 +23,12 @@
 
 package com.github.eddieringle.android.libs.andicons;
 
+import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreCorpSet;
+import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreExtSet;
+import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreSocialSet;
+import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeSet;
+import com.github.eddieringle.android.libs.andicons.sets.OcticonsSet;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -39,9 +45,19 @@ import android.widget.TextView;
 import static android.view.View.MeasureSpec.EXACTLY;
 import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 
-public abstract class AndiconView extends RelativeLayout {
+public class AndiconView extends RelativeLayout {
 
-    private Typeface mTypeface = null;
+    public static final int SET_FONTAWESOME = 1;
+
+    public static final int SET_FONTAWESOME_MORE_EXT = 2;
+
+    public static final int SET_FONTAWESOME_MORE_SOCIAL = 3;
+
+    public static final int SET_FONTAWESOME_MORE_CORP = 4;
+
+    public static final int SET_OCTICONS = 5;
+
+    private Typeface mTypeface = Typeface.DEFAULT;
 
     private PaintDrawable mPaintDrawable;
 
@@ -50,6 +66,8 @@ public abstract class AndiconView extends RelativeLayout {
     private float mCornerRadius = 0.0f;
 
     private int mCurrentAndicon = 0x0000;
+
+    private int mCurrentAndiconSet = 0;
 
     public AndiconView(Context context) {
         super(context);
@@ -66,22 +84,13 @@ public abstract class AndiconView extends RelativeLayout {
         initialize(attrs);
     }
 
-    protected abstract void setAndiconById(final int id);
-
-    protected abstract Typeface getTypeface();
-
     protected void initialize(AttributeSet attrs) {
-        if (mTypeface == null) {
-            mTypeface = getTypeface();
-        }
-
         mPaintDrawable = new PaintDrawable(Color.TRANSPARENT);
         mPaintDrawable.setCornerRadius(mCornerRadius);
         setBackgroundDrawable(mPaintDrawable);
 
         mTextView = new TextView(getContext());
         mTextView.setBackgroundDrawable(null);
-        mTextView.setTypeface(mTypeface);
         mTextView.setTextColor(Color.WHITE);
         LayoutParams textViewParams = new LayoutParams(WRAP_CONTENT, WRAP_CONTENT);
         textViewParams.addRule(CENTER_IN_PARENT);
@@ -99,13 +108,16 @@ public abstract class AndiconView extends RelativeLayout {
                     android.R.attr.textColor,
                     android.R.attr.radius
             };
-            final TypedArray attrArray = getContext().obtainStyledAttributes(attrs, handledAttrs);
+            TypedArray attrArray = getContext().obtainStyledAttributes(attrs, handledAttrs);
             setGlyphSize(attrArray.getDimension(0, 24));
             mTextView.setTextColor(attrArray.getColor(1, Color.WHITE));
             mCornerRadius = attrArray.getDimension(2, mCornerRadius);
             mPaintDrawable.setCornerRadius(mCornerRadius);
+            attrArray.recycle();
+            attrArray = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.AndiconView, 0, 0);
+            setAndicon(attrArray.getInt(R.styleable.AndiconView_andicon_set, 0), attrArray.getInt(R.styleable.AndiconView_andicon_id, 0));
+            attrArray.recycle();
         }
-        setAndiconById(getId());
     }
 
     public PaintDrawable getPaintDrawable() {
@@ -116,12 +128,45 @@ public abstract class AndiconView extends RelativeLayout {
         return mTextView;
     }
 
-    public AndiconView setAndicon(final int icon) {
+    public AndiconView setAndicon(final int set, final int icon) {
+        if (mCurrentAndiconSet != set) {
+            switch (set) {
+                case SET_FONTAWESOME:
+                    mTypeface = FontAwesomeSet.getTypeface(getContext());
+                    break;
+                case SET_FONTAWESOME_MORE_EXT:
+                    mTypeface = FontAwesomeMoreExtSet.getTypeface(getContext());
+                    break;
+                case SET_FONTAWESOME_MORE_SOCIAL:
+                    mTypeface = FontAwesomeMoreSocialSet.getTypeface(getContext());
+                    break;
+                case SET_FONTAWESOME_MORE_CORP:
+                    mTypeface = FontAwesomeMoreCorpSet.getTypeface(getContext());
+                    break;
+                case SET_OCTICONS:
+                    mTypeface = OcticonsSet.getTypeface(getContext());
+                    break;
+            }
+            mTextView.setTypeface(mTypeface);
+            mCurrentAndiconSet = set;
+        }
         mCurrentAndicon = icon;
+        /*
+         * If using Octicons, make sure MEGA or MINI is set
+         */
+        if (mCurrentAndiconSet == SET_OCTICONS) {
+            if (!((icon & OcticonsSet.MEGA) == OcticonsSet.MEGA
+                    || (icon & OcticonsSet.MINI) == OcticonsSet.MINI)) {
+                if (mTextView.getTextSize() > 16.0f) {
+                    mCurrentAndiconSet = icon | OcticonsSet.MEGA;
+                } else {
+                    mCurrentAndiconSet = icon | OcticonsSet.MINI;
+                }
+            }
+        }
         if (mTextView.getPaint() != null) {
             mTextView.setText(Html.fromHtml("&#x" + Integer.toHexString(mCurrentAndicon) + ";"));
         }
-
         /*
          * A hack to get rid of the bottom padding beneath these glyphs.
 		 * setIncludeFontPadding(false) just causes a load of other problems, so this is really
@@ -149,7 +194,7 @@ public abstract class AndiconView extends RelativeLayout {
 
     public AndiconView setGlyphSize(final float size) {
         mTextView.setTextSize(size);
-        return setAndicon(mCurrentAndicon);
+        return setAndicon(mCurrentAndiconSet, mCurrentAndicon);
     }
 
     public AndiconView setGlyphColor(final int color) {
@@ -180,11 +225,5 @@ public abstract class AndiconView extends RelativeLayout {
 
     public BitmapDrawable toDrawable() {
         return toDrawable(WRAP_CONTENT);
-    }
-
-    @Override
-    public void setId(final int id) {
-        super.setId(id);
-        setAndiconById(id);
     }
 }
