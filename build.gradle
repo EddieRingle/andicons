@@ -1,13 +1,7 @@
 buildscript {
     repositories {
         mavenCentral()
-        maven { url 'https://oss.sonatype.org/content/groups/public' }
-    }
-    dependencies {
-        classpath 'com.github.townsfolk:gradle-release:1.2+'
     }
 }
 
 project.ext.set('versionCode', (int)(System.currentTimeMillis() / 1000))
-
-apply plugin: 'release'

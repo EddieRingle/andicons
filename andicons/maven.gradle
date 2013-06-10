@@ -1,0 +1,100 @@
+// Setup
+
+// 0) Setup your sonatype credentials by editing/creating ~/.gradle/gradle.properties and enter:
+// signing.keyId=<HEXADECIMCAL KEY ID RETRIVABLE VIA gpg --list-keys>
+// signing.password=<KEY PASSWORD>
+// signing.secretKeyRingFile=<PATH TO KEY RING, USUALLY ~/.gnupg/secring.gpg>
+// sonatypeUsername=<SONATYPE USERNAME OR WHATEVER YOU USE>
+// sonatypePassword=<CORRESPONDING PASSWORD>
+
+// 1) Setup your build.gradle for your android project and add this one line of code which imports this gist:
+// apply from: 'https://raw.github.com/koush/mvn-repo/master/maven.gradle'
+
+// 2) gradle clean && gradle build && gradle uploadArchives
+
+// 3) That's it!
+
+
+apply plugin: 'maven'
+apply plugin: 'signing'
+
+
+afterEvaluate { project ->
+    sonatypeUrl = 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'
+    if (project.version.contains('-SNAPSHOT')) {
+        sonatypeUrl = 'https://oss.sonatype.org/content/repositories/snapshots/'
+    }
+
+    artifact_id = 'andicons'
+
+    uploadArchives {
+        repositories {
+            mavenDeployer {
+
+                beforeDeployment { MavenDeployment deployment -> signPom(deployment) }
+                pom.groupId = 'io.github.eddieringle.android.libs.andicons'
+                pom.artifactId = artifact_id
+                pom.version = project.version
+
+                repository(url: sonatypeUrl) {
+                    authentication(userName: sonatypeUsername, password: sonatypePassword)
+                }
+
+                pom.project {
+                    name 'Andicons'
+                    packaging 'jar'
+                    description 'Android library for using font-based glyphs as Bitmaps and Drawables'
+                    url 'https://github.com/eddieringle/andicons'
+
+                    scm {
+                        url 'https://github.com/eddieringle/andicons'
+                        connection 'git://github.com/eddieringle/andicons.git'
+                        developerConnection 'git@github.com:eddieringle/andicons.git'
+                    }
+
+                    licenses {
+                        license {
+                            name 'Simplified BSD License'
+                            url 'http://opensource.org/licenses/BSD-2-Clause'
+                            distribution 'repo'
+                        }
+                    }
+
+                    developers {
+                        developer {
+                            id 'eddieringle'
+                            name 'Eddie Ringle'
+                            email 'eddie@eringle.net'
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    signing {
+        sign configurations.archives
+    }
+
+    task androidJavadocs(type: Javadoc) {
+        source = android.sourceSets.main.allJava
+    }
+
+    task androidJavadocsJar(type: Jar) {
+        classifier = 'javadoc'
+        basename = artifact_id
+        from androidJavadocs.destinationDir
+    }
+
+    task androidSourcesJar(type: Jar) {
+        classifier = 'sources'
+        basename = artifact_id
+        from android.sourceSets.main.allSource
+    }
+
+    artifacts {
+        archives packageReleaseJar
+        archives androidSourcesJar
+        archives androidJavadocsJar
+    }
+}
