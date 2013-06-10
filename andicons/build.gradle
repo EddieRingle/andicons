@@ -16,5 +16,8 @@ android {
     defaultConfig {
         minSdkVersion 7
         targetSdkVersion 17
+
+        versionName project.version
+        versionCode project.versionCode
     }
 }
