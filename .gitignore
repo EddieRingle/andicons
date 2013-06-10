@@ -16,5 +16,9 @@ local.properties
 *.iml
 *.idea
 
+# Gradle
+.gradle
+build
+
 # Misc
 .DS_Store
