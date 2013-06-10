@@ -23,8 +23,6 @@
 
 package io.github.eddieringle.android.libs.andicons.sets;
 
-import com.github.eddieringle.android.libs.andicons.AndiconView;
-
 import android.content.Context;
 import android.graphics.Typeface;
 
