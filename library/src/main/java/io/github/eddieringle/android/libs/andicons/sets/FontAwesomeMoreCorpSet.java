@@ -21,7 +21,7 @@
  * WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.github.eddieringle.android.libs.andicons.sets;
+package io.github.eddieringle.android.libs.andicons.sets;
 
 import android.content.Context;
 import android.graphics.Typeface;

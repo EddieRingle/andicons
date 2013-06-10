@@ -21,13 +21,13 @@
  * WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-package com.github.eddieringle.android.libs.andicons;
+package io.github.eddieringle.android.libs.andicons;
 
-import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreCorpSet;
-import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreExtSet;
-import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreSocialSet;
-import com.github.eddieringle.android.libs.andicons.sets.FontAwesomeSet;
-import com.github.eddieringle.android.libs.andicons.sets.OcticonsSet;
+import io.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreCorpSet;
+import io.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreExtSet;
+import io.github.eddieringle.android.libs.andicons.sets.FontAwesomeMoreSocialSet;
+import io.github.eddieringle.android.libs.andicons.sets.FontAwesomeSet;
+import io.github.eddieringle.android.libs.andicons.sets.OcticonsSet;
 
 import android.content.Context;
 import android.content.res.TypedArray;
